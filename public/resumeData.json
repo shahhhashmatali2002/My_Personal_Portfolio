@@ -1,0 +1,139 @@
+{
+  "main": {
+    "name":"Hashmat Ali Shah",
+    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "image":"profilepic.jpeg",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "shahhashmatali667@gmail.com",
+    "phone": "0315-0285846",
+    "github":"https://github.com/shahhhashmatali2002",
+    "project":"https://github.com/shahhhashmatali2002",
+    "address":{
+      "street":"Korangi 6 51 B Farooqi Masjid Hasrat Mohani Colony",
+      "city":"Karachi",
+      "state":"Sindh",
+      "zip": "75900"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"https://drive.google.com/drive/my-drive",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/Hashmat09876",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/hashmat-ali-shah-030b44216/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/shahhhashmatali2002",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Tayyaba Faiz-e-Aam Secondary & Primary School",
+        "degree":"Matricultaion",
+        "graduated":"2018",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Government Superior Science College",
+        "degree":"InterMediate",
+        "graduated":"2020",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Sindh Madersatul Islam University",
+        "degree":"Undergraduate",
+        "graduated":"2020",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Kcompute Pvt limited",
+        "title":"Front End Web Developer",
+        "years":"1st November 2020",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Kcompute Pvt limited",
+        "title":"Front End Web Developer",
+        "years":"Currently I am Working",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"90%"
+      },
+      {
+        "name":"Database",
+        "level":"90%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"60%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"70%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Todo App",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://shahhhashmatali2002.github.io/TodoList_ReactRedux/"
+      },
+      {
+        "title":"Live Weather App",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"https://shahhhashmatali2002.github.io/liveWeatherApp/"
+      },
+      {
+        "title":"Clock",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"https://shahhhashmatali2002.github.io/React_Clock/"
+      },
+      {
+        "title":"Add Post",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"https://shahhhashmatali2002.github.io/Redux_AddPost/"
+      }
+    ]
+  }
+}
