@@ -3,7 +3,14 @@ import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
 class Header extends Component {
+  
   render() {
+    var indents = [];
+    for (var i = 0; i < 50; i++) {
+      indents.push(<div class='bubble' key={i}></div>);
+    }
+
+
     if (!this.props.data) return null;
 
     const project = this.props.data.project;
@@ -13,9 +20,9 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        {/* <ParticlesBg type="circle" bg={true} /> */}
 
-        <nav id="nav-wrap">
+        <nav id="nav-wrap" style={{background: 'black'}}>
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
           </a>
@@ -59,10 +66,10 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 className="responsive-headline glow">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3 style={{color: 'white'}} className="glow">{description}.</h3>
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
@@ -77,7 +84,8 @@ class Header extends Component {
             </Fade>
           </div>
         </div>
-
+        {/* <div class='bubble'></div> */}
+        {indents}
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
             <i className="icon-down-circle"></i>
