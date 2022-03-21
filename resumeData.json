@@ -3,8 +3,8 @@
     "name":"Hashmat Ali Shah",
     "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
     "image":"profilepic.jpeg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"My Self Hashmat Ali Shah. I am from Pakistan. I am Undergraduate in Artificial Intelligence. I am a Front-End Developer and i have 1 Year Experience.",
+    "contactmessage":"I am here to answer any questions you may have about my combadi experiences. Reach out me and i will respond as soon as we can.",
     "email": "shahhashmatali667@gmail.com",
     "phone": "0315-0285846",
     "github":"https://github.com/shahhhashmatali2002",
@@ -46,25 +46,25 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"",
     "education":[
       {
         "school":"Tayyaba Faiz-e-Aam Secondary & Primary School",
         "degree":"Matricultaion",
         "graduated":"2018",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"I enjoyed my life and i learned a lot of things."
       },
       {
         "school":"Government Superior Science College",
         "degree":"InterMediate",
         "graduated":"2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"I enjoyed my life and i learned a lot of things."
       },
       {
         "school":"Sindh Madersatul Islam University",
         "degree":"Undergraduate",
         "graduated":"2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"I am enjoying my life and learning a lot of things."
       }
     ],
     "work":[
@@ -72,13 +72,13 @@
         "company":"Kcompute Pvt limited",
         "title":"Front End Web Developer",
         "years":"1st November 2020",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"I am a Front-End Developer in KCompute. I have 7 month experience in react.js."
       },
       {
         "company":"Kcompute Pvt limited",
         "title":"Front End Web Developer",
         "years":"Currently I am Working",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"I am a Front-End Developer in KCompute. I have 7 month experience in react.js."
       }
     ],
     "skills":[
