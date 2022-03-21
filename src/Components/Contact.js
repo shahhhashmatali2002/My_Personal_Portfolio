@@ -1,8 +1,11 @@
 import React, { Component, useRef, useState } from "react";
 import { Fade, Slide } from "react-reveal";
 import emailjs from 'emailjs-com'
+import Snackbar from "@mui/material/Snackbar"
+import Alert from "@mui/material/Alert"
 
 const Contact = (props) => {
+  const [open, setOpen] = useState(false)
   const form = useRef()
   const [values, setValues] = useState({
     user_name: '',
@@ -46,6 +49,11 @@ const Contact = (props) => {
       subject: '',
       message: ''
     }))
+    setOpen(true)
+
+    setTimeout(() => {
+      setOpen(false)
+    },[1000])
   }
   return (
     <section id="contact">
@@ -78,6 +86,7 @@ const Contact = (props) => {
                   onChange={hanldeChange}
                   size="35"
                   name="user_name"
+                  autoComplete="off"
                 />
               </div>
 
@@ -92,6 +101,7 @@ const Contact = (props) => {
                   onChange={hanldeChange}
                   size="35"
                   name="user_email"
+                  autoComplete="off"
                 />
               </div>
 
@@ -104,7 +114,7 @@ const Contact = (props) => {
                   name="subject"
                   onChange={hanldeChange}
                   size="35"
-                  autoComplete="false"
+                  autoComplete="off"
                 />
               </div>
 
@@ -124,19 +134,15 @@ const Contact = (props) => {
 
               <div>
                 <button className="submit" type="submit">Submit</button>
-                <span id="image-loader">
-                    <img alt="" src="images/loader.gif" />
-                  </span>
               </div>
             </form>
-
-            <div id="message-warning"> Error boy</div>
-            <div id="message-success">
-              <i className="fa fa-check"></i>Your message was sent, thank you!
-              <br />
-            </div>
           </div>
         </Slide>
+        `<Snackbar open={open}>
+            <Alert variant="filled" severity="success" style={{width: '300px'}}>
+              <span style={{fontSize: '15px'}}>Submit Successfully</span>
+            </Alert>
+          </Snackbar>
 
         <Slide right duration={1000}>
           <aside className="four columns footer-widgets">

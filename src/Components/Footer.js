@@ -25,7 +25,7 @@ class Footer extends Component {
               <ul className="copyright">
                 <li>&copy;Copyright ©2022 All rights reserved | This template is made with 💖 by</li>
                 <li>
-                  <a href="#" style={{color: 'blue'}}>
+                  <a href="#" style={{color: '#ff014f', fontSize: '20px', fontWeight: 'bold'}}>
                   HAS
                   </a>
                 </li>
