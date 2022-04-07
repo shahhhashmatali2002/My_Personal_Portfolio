@@ -22,7 +22,7 @@ class Portfolio extends Component {
       );
     });
     const project1 = this.props.data.project1.map(function (project1) {
-      let projectImage = "images/portfolio/" + project1.image;
+      let projectImage = "images/portfolio1/" + project1.image;
 
       return (
         <div key={id++} className="columns portfolio-item">
