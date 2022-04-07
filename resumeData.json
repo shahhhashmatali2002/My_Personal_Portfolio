@@ -109,6 +109,53 @@
     ]
   },
   "portfolio":{
+    "project1": [
+      {
+        "title": "PakLab",
+        "image": "paklab.png",
+        "url": "https://pakistanlaptop.pk/"
+      },
+      {
+        "title": "PakLab2",
+        "image": "paklab2.png",
+        "url": "https://www.paklap.pk/"
+      },
+      {
+        "title": "Fash",
+        "image": "fash.png",
+        "url": "https://www.fashpreneurs.com/#"
+      },
+      {
+        "title": "Hotel",
+        "image": "hotel.png",
+        "url": "https://malrosehotel.com/"
+      },
+      {
+        "title": "Zibco",
+        "image": "zibco.png",
+        "url": "https://ziboco.com/"
+      },
+      {
+        "title": "Power Life",
+        "image": "powerLife.png",
+        "url": "https://marcia-s-school-2de2.thinkific.com/"
+      },
+      {
+        "title": "Niklex",
+        "image": "niklex.png",
+        "url": "https://nikexcapital.com/"
+      },
+      {
+        "title": "My Farm",
+        "image": "LogoMyFarm.png",
+        "url": "https://myfarm.demo.fit/"
+      },
+      {
+        "title": "Binance Clone",
+        "image": "binance.png",
+        "url": "https://owais_portfolio_gal.surge.sh/"
+      }
+    ],
     "projects": [
       {
         "title":"Todo App",
